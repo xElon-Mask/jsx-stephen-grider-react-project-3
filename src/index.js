@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 const el = document.getElementById('root');
 
 // 3 - Tell React to take control of that element
+const root = ReactDOM.createRoot(el);
 
 // 4 - Create a component
 
